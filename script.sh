@@ -11,10 +11,6 @@ bench init frappe-bench && cd frappe-bench
 
 bench new-site site1.local
 
-katbi
-katbi
-
-
 bench get-app erpnext https://github.com/frappe/erpnext
 
 bench --site site1.local install-app erpnext
