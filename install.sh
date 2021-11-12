@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "test"
 
 git clone https://github.com/frappe/bench bench-repo
 
