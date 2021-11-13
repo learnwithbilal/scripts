@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 sudo apt install git python-dev redis-server
@@ -20,15 +18,7 @@ sudo apt-get install curl
 
 sudo apt-get install protonvpn-cli
 
-protonvpn-cli login learn.with.bilal
-
-protonvpn-cli c -r
-
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-
-protonvpn-cli d
-
-bash
 
 nvm install 16
 
@@ -41,7 +31,6 @@ sudo apt-get install xvfb libfontconfig wkhtmltopdf
 sudo apt-get install python3-pip
 
 git clone https://github.com/frappe/bench bench-repo
-
 
 sudo pip install -e bench-repo
 
