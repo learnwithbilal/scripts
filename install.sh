@@ -1,8 +1,8 @@
 #!/bin/bash
 
-apt install git python-dev redis-server
+sudo apt install git python-dev redis-server
 
-apt-get install software-properties-common
+sudo apt-get install software-properties-common
 
 sudo apt-get update && sudo apt-get upgrade
 
