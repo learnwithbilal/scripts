@@ -46,6 +46,6 @@ bench --site site1Limit.local install-app erpnext
 
 #bench --site [sitename] set-limit [limit] [value]
 
-bench new-site site1Limit.local set-limit users 5
+bench --site site1Limit.local set-limit users 5
 
 bench start
