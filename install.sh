@@ -1,34 +1,22 @@
 #!/bin/bash
 
-sudo apt install git python-dev redis-server
-
-sudo apt-get install software-properties-common
-
 sudo apt-get update && sudo apt-get upgrade
 
-#sudo apt-get install mariadb-server-10.5
-
-sudo apt install mariadb-server mariadb-client
+sudo apt install mariadb-server mariadb-client libmariadb-dev curl git python3-dev redis-server software-properties-common xvfb libfontconfig wkhtmltopdf python3-pip nginx supervisor -y
 
 systemctl daemon-reload
 
 sudo mysql_secure_installation
 
-sudo apt-get install libmariadb-dev
-
 sudo service mysql restart
 
-sudo apt-get install curl
 
 #curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 #nvm install 16
+sudo apt autoremove
 
 npm install -g yarn
-
-sudo apt-get install xvfb libfontconfig wkhtmltopdf
-
-sudo apt-get install python3-pip
 
 git clone https://github.com/frappe/bench bench-repo
 
