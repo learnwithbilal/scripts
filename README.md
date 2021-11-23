@@ -45,5 +45,12 @@ sudo apt install mariadb-server mariadb-client libmariadb-dev curl git python3-d
  ```
  systemctl daemon-reload
  ```
+
+```
+sudo mysql_secure_installation
+```
+is a shell script available on Unix systems, and enables you to improve the security of your MariaDB installation
+
+
  
  
