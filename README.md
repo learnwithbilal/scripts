@@ -81,5 +81,5 @@ sudo pip install -e bench-repo
 ```
 
 
-![alt text](https://place-hold.it/200)
+![alt text](https://place-hold.it/200.png)
 
