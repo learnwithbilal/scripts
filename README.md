@@ -81,5 +81,5 @@ sudo pip install -e bench-repo
 ```
 
 
-![image](https://i.ibb.co/stFwfdc/test.png)
+![image](https://github.com/learnwithbilal/scripts/blob/master/test.png)
 
