@@ -25,3 +25,25 @@ sudo apt install mariadb-server mariadb-client libmariadb-dev curl git python3-d
 `python3-dev` python-dev contains the header files you need to build Python extensions.
 
 `redis-server` Redis is an open source (BSD licensed), in-memory data structure store, used as a database.
+
+`software-properties-common` This software provides an abstraction of the used apt repositories.
+
+`xvfb` Xvfb (short for X virtual framebuffer) is an in-memory display server for UNIX-like operating system (e.g., Linux).
+
+`libfontconfig` is a library for configuring and customizing font access.
+
+`wkhtmltopdf` is command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering.
+
+ `python3-pip` it defaults to installing pip.
+ 
+ `nginx` is open source software for web serving, reverse proxying.
+ 
+ `supervisor` Controlling Nginx with Supervisor.
+ 
+ After installing new generators or updating the configuration, systemctl daemon-reload may be executed. This will delete the previous configuration created by generators, re-run all generators, and cause systemd to reload units from disk.
+ 
+ ```
+ systemctl daemon-reload
+ ```
+ 
+ 
