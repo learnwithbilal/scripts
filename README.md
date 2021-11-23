@@ -53,10 +53,33 @@ sudo mysql_secure_installation
 ```
 sudo service mysql restart
 ```
-and now download nodejs 14
+and now download nodejs 16
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
+```
+nvm install 16
+```
+Now remove those dependencies that were installed with applications and are no longer used by anything else on the system
+```
+sudo apt autoremove
+```
+now install the yarn 
+```
+npm install -g yarn
+```
+and is a package manager that doubles down as project manager.
 
- 
- 
+now install bench repository
+```
+git clone https://github.com/frappe/bench bench-repo
+```
+and bench is a command-line utility that helps you to install, update, and manage multiple sites for Frappe/ERPNext
+now install it
+```
+sudo pip install -e bench-repo
+```
+
+
+![alt text](https://place-hold.it/200)
+
