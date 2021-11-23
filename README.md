@@ -1,3 +1,6 @@
+![image](https://github.com/learnwithbilal/scripts/blob/master/test.png)
+
+![image](https://github.com/learnwithbilal/scripts/blob/master/836974.png)
 # Installing Frappe and ERPNext
 
 First thing First update and upgrade your system
@@ -81,5 +84,5 @@ sudo pip install -e bench-repo
 ```
 
 
-![image](https://github.com/learnwithbilal/scripts/blob/master/test.png)
+
 
