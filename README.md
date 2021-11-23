@@ -50,6 +50,9 @@ Now run the following command to available on Unix systems, and enables you to i
 ```
 sudo mysql_secure_installation
 ```
+```
+sudo service mysql restart
+```
 
 
 
