@@ -1,3 +1,4 @@
+![image](
 # Installing Frappe and ERPNext
 
 First thing First update and upgrade your system
