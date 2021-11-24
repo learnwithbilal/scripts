@@ -93,7 +93,7 @@ Frappe apps are run by frappe sites and you will have to create at least one sit
 bench new-site site1.local
 ```
 
-### Add apps
+### Add apps 
 
 The get-app command gets remote frappe apps from a remote git repository and installs them. Example: erpnext
 
