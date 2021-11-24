@@ -1,4 +1,3 @@
-![image](
 # Installing Frappe and ERPNext
 
 First thing First update and upgrade your system
@@ -76,11 +75,41 @@ now install bench repository
 git clone https://github.com/frappe/bench bench-repo
 ```
 and bench is a command-line utility that helps you to install, update, and manage multiple sites for Frappe/ERPNext
+
 now install it
 ```
 sudo pip install -e bench-repo
 ```
+now init frappe-bench and go inside it 
+```
+bench init frappe-bench && cd frappe-bench
+```
 
+`init` Initialize a new bench instance in the specified path. 
 
+Frappe apps are run by frappe sites and you will have to create at least one site. The new-site command allows you to do that.
 
+```
+bench new-site site1.local
+```
 
+### Add apps
+
+The get-app command gets remote frappe apps from a remote git repository and installs them. Example: erpnext
+
+```
+bench get-app erpnext https://github.com/frappe/erpnext
+```
+
+### Install apps
+
+To install an app on your new site, use the bench install-app command.
+
+```
+bench --site site1.local install-app erpnext
+```
+### Start bench
+To start using the bench, use the bench start command
+````
+bench start
+````
