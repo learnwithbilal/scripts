@@ -1,4 +1,4 @@
-# Installing Frappe and ERPNext
+# Installing Frappe and 🌟 ERPNext 🌟 :
 
 First thing First update and upgrade your system
 
@@ -6,7 +6,7 @@ First thing First update and upgrade your system
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-### installing all packages:
+### installing all packages 📦📦:
 
 ```
 sudo apt install mariadb-server mariadb-client libmariadb-dev curl git python3-dev redis-server software-properties-common xvfb libfontconfig wkhtmltopdf python3-pip nginx supervisor -y
@@ -113,3 +113,36 @@ To start using the bench, use the bench start command
 ````
 bench start
 ````
+## Download WhiteLable for editing Navbar 
+```
+bench get-app https://github.com/bhavesh95863/whitelabel
+```
+## Install WhiteLable
+```
+bench --site site1.local install-app whitelabel
+```
+### Now Run this command with Bench Starting
+```
+bench migrate
+```
+### Restart The Bench
+```
+bench restart
+```
+### Clear The Cache 🧹
+```
+bench clear-cache
+```
+Now close windows and re-run the bench 
+```
+bench start
+```
+open in the browser 🖱️
+```
+localhost:8000
+````
+| Username | Password |
+| -------- | -------- |
+| Administrator | Your Password |
+
+
