@@ -12,7 +12,7 @@ sudo pip install -e bench-repo
 bench init frappe-bench-custom && cd frappe-bench-custom
 ```
 ```
-bench new-site site1.local
+bench new-site couldCentrics.local
 ```
 ```
 bench new-app cloudCentrics
