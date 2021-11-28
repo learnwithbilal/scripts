@@ -25,3 +25,5 @@ sudo pip install -e bench-repo
 bench init frappe-bench && cd frappe-bench
 
 bench new-site site1.local
+
+bench start
