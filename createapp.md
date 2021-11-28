@@ -1,16 +1,25 @@
 ## Create an App
+```
+sudo apt-get update && sudo apt-get upgrade -y
+```
+```
+git clone https://github.com/frappe/bench bench-repo
+```
+```
+sudo pip install -e bench-repo
+```
+```
+bench init frappe-bench && cd frappe-bench
+```
+```
+bench new-site site1.local
+```
+```
+bench new-app cloudCentrics
+```
 
-Before we start, make sure you're in a bench directory. To confirm, run bench find .:
-
 ```
-bench find .
-```
-```
-bench new-app APP_NAME
-```
-
-```
-bench build --app APP_NAME
+bench build --app cloudCentrics
 ```
 
 APP_NAME: This directory will contain all the source code for your app
