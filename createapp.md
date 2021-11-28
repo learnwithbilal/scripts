@@ -9,7 +9,7 @@ git clone https://github.com/frappe/bench bench-repo
 sudo pip install -e bench-repo
 ```
 ```
-bench init frappe-bench && cd frappe-bench
+bench init frappe-bench-custom && cd frappe-bench-custom
 ```
 ```
 bench new-site site1.local
