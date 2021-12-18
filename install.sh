@@ -11,16 +11,20 @@ sudo mysql_secure_installation
 sudo service mysql restart
 
 
-#curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
-#nvm install 16
+
+nvm install 14
+
 sudo apt autoremove
 
 npm install -g yarn
 
 git clone https://github.com/frappe/bench bench-repo
 
-sudo pip install -e bench-repo
+sudo apt-get install python3-pip
+
+sudo pip3 install -e bench-repo
 
 bench init frappe-bench && cd frappe-bench
 
@@ -31,4 +35,3 @@ bench get-app erpnext https://github.com/frappe/erpnext
 bench --site site1.local install-app erpnext
 
 bench start
-
